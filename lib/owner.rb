@@ -29,7 +29,11 @@ class Owner
   end 
   
   def pets 
-    @pets[:cat, :dog, :fish] = 
+  end 
+  
+  def buy_fish 
+    new_fish = Fish.new 
+    
   end 
   
 end
