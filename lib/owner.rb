@@ -36,4 +36,7 @@ class Owner
     @pets[:fishes].insert(new_fish)
    end 
   
+  def buy_cat(catname)
+    new_cat = Cat.new(catname)
+  end 
 end
