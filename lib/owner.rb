@@ -5,7 +5,6 @@ class Owner
   attr_accessor :name, :fish
   
   @@all = []
-  @pets = {}
   
   def initialize(species)
     @species = species 
@@ -25,6 +24,7 @@ class Owner
   end 
   
   def say_species
+    @pets = Hash.new 
     @pets[:fishes] = []
     @pets[:dogs] = []
     @pets[:cats] = [] 
