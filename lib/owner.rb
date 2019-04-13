@@ -2,7 +2,7 @@ class Owner
   # code goes here
   
   attr_reader :species 
-  attr_accessor :name, :fish, :pets 
+  attr_accessor :name, :fish
   
   @@all = []
    
