@@ -2,7 +2,7 @@ class Owner
   # code goes here
   
   attr_reader :species 
-  attr_accessor :name 
+  attr_accessor :name, :fish
   
   @@all = []
   @pets = {}
@@ -33,7 +33,7 @@ class Owner
   
   def buy_fish 
     new_fish = Fish.new 
-    
+    self.fish = new_fish 
   end 
   
 end
