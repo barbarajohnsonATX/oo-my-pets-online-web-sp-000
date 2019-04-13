@@ -64,5 +64,8 @@ class Owner
     @pets = {}
   end 
   
-  
+  def list_pets 
+    num_fishes = @pets[:fishes].length
+    @pets.each do |key, value|
+      puts ("I have #{value.count")
 end
