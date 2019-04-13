@@ -29,7 +29,7 @@ class Owner
   end 
   
   def pets 
-    @pets
+    @pets[:cat, :dog, :fish] = 
   end 
   
 end
