@@ -28,6 +28,7 @@ class Owner
     @pets[:fishes] = []
     @pets[:dogs] = []
     @pets[:cats] = [] 
+    @pets 
   end 
   
   def pets 
