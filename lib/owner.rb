@@ -25,7 +25,9 @@ class Owner
   end 
   
   def say_species
-    @pets[:fishes = [], :dogs = [], :cats => []]
+    @pets[:fishes] = []
+    @pets[:dogs] = []
+    @pets[:cats] = [] 
   end 
   
   def pets 
