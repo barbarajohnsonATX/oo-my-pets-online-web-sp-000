@@ -2,10 +2,10 @@ class Owner
   # code goes here
   
   attr_reader :species 
-  attr_accessor :name, :fish
+  attr_accessor :name, :fish, :pets 
   
   @@all = []
-  
+   
   def initialize(species)
     @species = species 
     @@all << self 
